@@ -1,15 +1,7 @@
 
-import {
-   Main,
-   Header,
-   BannerSection,
-   TextBanner,
-   IconsSection,
-   MarsSection,
-   MarsText,
-   SubscriptionNow,
-   MarsGallery
-} from "./styles"
+import { Main,Header, BannerSection, TextBanner, IconsSection } from "./styles"
+
+import { MarsSection, MarsText, SubscriptionNow, MarsGallery } from "./mars-styles"
 
 import logoImg from "/assets/logo.svg";
 import homeMars from "/assets/home-mars.svg";
