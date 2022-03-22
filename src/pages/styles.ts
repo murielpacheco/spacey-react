@@ -19,7 +19,7 @@ export const Header = styled.header`
 
    img:nth-child(2) {
       position: absolute;
-      left: 144.6rem;
+      left: 142.5rem;
       top: 1.6rem;
    }
 `	
@@ -157,4 +157,50 @@ export const MarsText = styled.div`
       letter-spacing: 0.1rem;
       font-weight: 400;
    }
+`
+
+export const SubscriptionNow = styled.aside`
+   width: 34.35rem;
+   height: 22.9rem;
+   margin: 16.8rem 9rem 0 11.2rem;
+
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+
+   img {
+      width: 11.4rem;
+      height: 2.5rem;
+      margin-left: -0.05rem;
+      margin-bottom: 1.3rem;
+   }
+
+   strong {
+      color: var(--text-color);
+      font-size: 3.2rem;
+      line-height: 4.8rem;
+      letter-spacing: 0.1rem;
+      font-weight: 700;
+      margin-bottom: 1.67rem;
+   }
+
+   span {
+      color: var(--mars-light);
+      font-size: 1.8rem;
+      line-height: 2.6rem;
+      font-weight: 700;
+
+      cursor: pointer;
+
+      :hover {
+         text-decoration: underline;
+      }
+   }
+`
+
+export const MarsGallery = styled.section`
+   display: flex;
+   align-items: center;
+   gap: 30rem;
+
 `

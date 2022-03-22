@@ -6,7 +6,9 @@ import {
    TextBanner,
    IconsSection,
    MarsSection,
-   MarsText
+   MarsText,
+   SubscriptionNow,
+   MarsGallery
 } from "./styles"
 
 import logoImg from "../../assets/logo.svg";
@@ -15,13 +17,14 @@ import iconsRocket from "../../assets/icon-rocket.svg";
 import iconsFlag from "../../assets/icon-flag.svg";
 import iconsTelescope from "../../assets/icon-telescope.svg";
 import marsImg from "../../assets/mars.svg";
+import { Gallery } from "../components/Gallery";
 
 export function Home() {
    return (
       <Main>
          <Header>
             <img src={logoImg} alt="Logo Spacey"></img>
-            <img src={homeMars} alt="Logo Spacey"></img>
+            <img src={homeMars} alt="Mars"></img>
          </Header>
          <BannerSection>
             <TextBanner>
@@ -34,22 +37,22 @@ export function Home() {
             </TextBanner>
             <IconsSection>
                <div>
-                  <img src={iconsRocket} alt="" />
+                  <img src={iconsRocket} alt="Rocket icon" />
                   <span>Foguetes com a mais alta <br /> tecnologia e conforto.</span>
                </div>
                <div>
-                  <img src={iconsFlag} alt="" />
+                  <img src={iconsFlag} alt="Flag icon" />
                   <span>Mais de 100 missões <br /> consecutivas com sucesso.</span>
                </div>
                <div>
-                  <img src={iconsTelescope} alt="" />
+                  <img src={iconsTelescope} alt="Telescope icon" />
                   <span>Experiencia única <br /> e exclusiva.</span>
                </div>
             </IconsSection>
          </BannerSection>
          <MarsSection>
             <div>
-               <img src={marsImg} alt="" />
+               <img src={marsImg} alt="Mars" />
                <MarsText>
                   <span>Por que marte?</span>
                   <strong>Sobre o planea vermelho</strong>
@@ -62,6 +65,17 @@ export function Home() {
                   </p>
                </MarsText>
             </div>
+            <MarsGallery>
+               <SubscriptionNow>
+                  <img src={logoImg} alt="Logo Spacey" />
+                  <strong>
+                     O caminho para <br /> tornar a humanidade multiplanetária.
+                  </strong>
+                  <span>Inscreva-se agora</span>
+               </SubscriptionNow>
+               <Gallery />
+            </MarsGallery>
+         
          </MarsSection>
       </Main>
    )
