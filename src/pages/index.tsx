@@ -11,12 +11,12 @@ import {
    MarsGallery
 } from "./styles"
 
-import logoImg from "../../assets/logo.svg";
-import homeMars from "../../assets/home-mars.svg";
-import iconsRocket from "../../assets/icon-rocket.svg";
-import iconsFlag from "../../assets/icon-flag.svg";
-import iconsTelescope from "../../assets/icon-telescope.svg";
-import marsImg from "../../assets/mars.svg";
+import logoImg from "../../public/assets/logo.svg";
+import homeMars from "../../public/assets/home-mars.svg";
+import iconsRocket from "../../public/assets/icon-rocket.svg";
+import iconsFlag from "../../public/assets/icon-flag.svg";
+import iconsTelescope from "../../public/assets/icon-telescope.svg";
+import marsImg from "../../public/assets/mars.svg";
 import { Gallery } from "../components/Gallery";
 
 export function Home() {
