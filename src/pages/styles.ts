@@ -8,31 +8,31 @@ export const Main = styled.main`
 
 export const Header = styled.header`
    width: 100%;
-   height: 89px;
+   height: 8.9rem;
    background-color: var(--background-color);
    position: relative;
 
       
    img:nth-child(1) {
-      margin: 24px 0 24px 112px;
+      margin: 2.4rem 0 2.4rem 11.2rem;
     }
 
    img:nth-child(2) {
       position: absolute;
-      left: 1446px;
-      top: 16px;
+      left: 144.6rem;
+      top: 1.6rem;
    }
 `	
 
 export const BannerSection = styled.section`
    background-color: var(--background-color);
-   padding-top: 95px;
+   padding-top: 9.5rem;
 `
 
 export const TextBanner = styled.div`
-      width: 814px;
-      height: 360px;
-      margin-left: 112px;     
+      width: 81.4rem;
+      height: 36rem;
+      margin-left: 11.2rem;     
       display: flex;
       flex-direction: column;
 
@@ -40,35 +40,35 @@ export const TextBanner = styled.div`
       color: var(--sun);
       display: inline-block;
       text-transform: uppercase;
-      line-height: 32px;
-      letter-spacing: 5px;
+      line-height: 3.2rem;
+      letter-spacing: 0.5rem;
    }
 
    strong {
       color: var(--text-color);
-      font-size: 62px;
-      line-height: 82px;
+      font-size: 6.2rem ;
+      line-height: 8.2rem;
       font-weight: 800;
    }
 
    p {
       color: var(--gray-05);
-      font-size: 20px;
-      line-height: 24px;
+      font-size: 2rem;
+      line-height: 2.4rem;
       font-weight: 400;
-      letter-spacing: 1px;
+      letter-spacing: 0.1rem;
    }
 
    button {
-      width: 264px;
-      height: 52px;
-      margin-top: 16px;
+      width: 26.4rem;
+      height: 5.2rem;
+      margin-top: 1.6rem;
       background-color: var(--mars);
       border: none;
-      border-radius: 10px;
+      border-radius: 1rem;
       color: var(--text-color);
-      font-size: 18px;
-      line-height: 26px;
+      font-size: 1.8rem;
+      line-height: 2.6rem;
       font-weight: 700;
 
       display: flex;
@@ -85,7 +85,7 @@ export const TextBanner = styled.div`
 export const IconsSection = styled.section`
    width: 100%;
    background-color: var(--space-dark);
-   padding: 133px 140px 0 112px;
+   padding: 13.3rem 14.0rem 0 11.2rem;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
@@ -96,15 +96,15 @@ export const IconsSection = styled.section`
    }
 
    img {
-      width: 56px;
-      height: 56px;
-      margin-bottom: 10px;
+      width: 5.6rem;
+      height: 5.6rem;
+      margin-bottom: 1rem;
    }
 
    span {
-      font-size: 16px;
-      line-height: 24px;
-      letter-spacing: 1px;
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      letter-spacing: 0.1rem;
       font-weight: 400;
       color: var(--gray-05);
    }
@@ -116,45 +116,45 @@ export const MarsSection = styled.section`
    > div {
       display: flex;
       align-items: center;
-      gap: 132px;
+      gap: 13.2rem;
    }
 
    img {
-      margin-left: 42px;
+      margin-left: 4.2rem;
    }
 `
 
 export const MarsText = styled.div`
-   width: 648px;
-   height: 397px;
+   width: 64.8rem;
+   height: 39.7rem;
    display: flex;
    flex-direction: column;
 
 
    span {
       color: var(--sun);
-      font-size: 18px;
-      line-height: 27px;
-      letter-spacing: 5px;
+      font-size: 1.8rem;
+      line-height: 2.7rem;
+      letter-spacing: 0.5rem;
       font-weight: 500;
       text-transform: uppercase;
-      margin-bottom: 14px;
+      margin-bottom: 1.4rem;
    }
 
    strong {
       color: var(--text-color);
-      font-size: 32px;
-      line-height: 48px;
-      letter-spacing: 1px;
+      font-size: 3.2rem;
+      line-height: 4.8rem;
+      letter-spacing: 0.1rem;
       font-weight: 700;
-      margin-bottom: 26px;
+      margin-bottom: 2.6rem;
    }
 
    p {
       color: var(--gray-05);
-      font-size: 16px;
-      line-height: 24px;
-      letter-spacing: 1px;
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      letter-spacing: 0.1rem;
       font-weight: 400;
    }
 `
