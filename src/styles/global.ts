@@ -19,6 +19,7 @@ export const GlobalStyle = createGlobalStyle`
       --earth: #0FDD86;
       --saturn: #554AD7;
 
+      --background-color: #04032C;
       --text-color: #FFFFFF;
 
    }
@@ -30,5 +31,19 @@ export const GlobalStyle = createGlobalStyle`
       font-family: "Heebo";
    }
 
-`
+   html {
+      @media(max-width: 1440px) {
+         font-size: 93.75%;
+      }
+      
+      @media(max-width: 375px) {
+         font-size: 93.75%;
+      }
+   }
 
+   body {
+      -webkit-font-smoothing: antialiased;
+      width: 100%;
+   }
+
+`
