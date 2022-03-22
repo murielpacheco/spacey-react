@@ -126,6 +126,8 @@ export const MarsSection = styled.section`
 
    img {
       margin-left: 4.2rem;
+      height: 62.1rem;
+      width: 62.1rem;
    }
 `
 
