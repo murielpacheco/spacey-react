@@ -15,10 +15,14 @@ export const Header = styled.header`
 
       
    img:nth-child(1) {
+      width: 20.1rem;
+      height: 4.1rem;
       margin: 2.4rem 0 2.4rem 11.2rem;
     }
 
    img:nth-child(2) {
+      width: 55rem;
+      height: 56rem;
       position: absolute;
       left: 142.5rem;
       top: 1.6rem;
@@ -160,6 +164,14 @@ export const MarsText = styled.div`
    }
 `
 
+
+export const MarsGallery = styled.section`
+   display: flex;
+   align-items: center;
+   gap: 30rem;
+
+`
+
 export const SubscriptionNow = styled.aside`
    width: 34.35rem;
    height: 22.9rem;
@@ -197,11 +209,4 @@ export const SubscriptionNow = styled.aside`
          text-decoration: underline;
       }
    }
-`
-
-export const MarsGallery = styled.section`
-   display: flex;
-   align-items: center;
-   gap: 30rem;
-
 `
