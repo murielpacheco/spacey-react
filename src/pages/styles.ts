@@ -4,12 +4,13 @@ export const Main = styled.main`
    width: 100%;
    height: 100%;
    overflow-x: hidden;
+
 `
 
 export const Header = styled.header`
    width: 100%;
    height: 8.9rem;
-   background-color: var(--background-color);
+   background-color: var(--space-dark);
    position: relative;
 
       
@@ -25,7 +26,7 @@ export const Header = styled.header`
 `	
 
 export const BannerSection = styled.section`
-   background-color: var(--background-color);
+   background-color: var(--space-dark);
    padding-top: 9.5rem;
 `
 

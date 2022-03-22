@@ -19,7 +19,6 @@ export const GlobalStyle = createGlobalStyle`
       --earth: #0FDD86;
       --saturn: #554AD7;
 
-      --background-color: #04032C;
       --text-color: #FFFFFF;
 
    }
@@ -45,6 +44,16 @@ export const GlobalStyle = createGlobalStyle`
    body {
       -webkit-font-smoothing: antialiased;
       width: 100%;
+
+      ::-webkit-scrollbar {
+         width: 8px;
+         background: var(--gray-01);
+      }
+
+      ::-webkit-scrollbar-thumb {
+         background: var(--space-dark);
+         border-radius: 4px;
+      }
    }
 
 `

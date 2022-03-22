@@ -25,7 +25,7 @@ export const GalleryContainer = styled.div`
     height: 31.3rem;
     border-radius: 1rem;
     margin-right: 3.2rem;
-    animation: ${swiper} 25s linear infinite;
+    animation: ${swiper} 15s linear infinite;
   }
 `;
 
