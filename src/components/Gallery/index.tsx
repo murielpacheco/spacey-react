@@ -3,37 +3,37 @@ import { ArrowLeft, ArrowRight, GalleryContainer } from './styles'
 const images = [
    {
      id: 1,
-     src: "/public/assets/mars-img1.svg",
+     src: "/assets/mars-img1.svg",
      name: "Imagem 1"
    },
    {
     id: 2,
-    src: "/public/assets/mars-img2.svg",
+    src: "/assets/mars-img2.svg",
     name: "Imagem 2"
    },
    {
     id: 3,
-    src: "/public/assets/mars-img3.svg",
+    src: "/assets/mars-img3.svg",
     name: "Imagem 3"
    },
    {
      id: 4,
-     src: "/public/assets/mars-img1.svg",
+     src: "/assets/mars-img1.svg",
      name: "Imagem 1"
    },
    {
     id: 5,
-    src: "/public/assets/mars-img2.svg",
+    src: "/assets/mars-img2.svg",
     name: "Imagem 2"
    },
    {
      id: 6,
-     src: "/public/assets/mars-img3.svg",
+     src: "/assets/mars-img3.svg",
      name: "Imagem 3"
    },
    {
      id: 7,
-     src: "/public/assets/mars-img1.svg",
+     src: "/assets/mars-img1.svg",
      name: "Imagem 1"
    },
  ]
