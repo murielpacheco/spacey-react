@@ -24,7 +24,7 @@ export const Header = styled.header`
       width: 55rem;
       height: 56rem;
       position: absolute;
-      left: 142.5rem;
+      left: 108.5rem;
       top: 1.6rem;
    }
 `	

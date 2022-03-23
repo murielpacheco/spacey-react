@@ -67,7 +67,6 @@ export function Home() {
                </SubscriptionNow>
                <Gallery />
             </MarsGallery>
-         
          </MarsSection>
       </Main>
    )

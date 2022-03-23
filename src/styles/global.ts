@@ -44,16 +44,7 @@ export const GlobalStyle = createGlobalStyle`
    body {
       -webkit-font-smoothing: antialiased;
       width: 100%;
-
-      ::-webkit-scrollbar {
-         width: 8px;
-         background: var(--gray-01);
-      }
-
-      ::-webkit-scrollbar-thumb {
-         background: var(--space-dark);
-         border-radius: 4px;
-      }
+      overflow-x:auto;
+      overflow-y:auto;
    }
-
 `

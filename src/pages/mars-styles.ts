@@ -2,6 +2,8 @@ import styled from "styled-components"
 
 export const MarsSection = styled.section`
    background: linear-gradient(180deg, #040327 0%, #0D0E13 24.49%);
+   width: 100%;
+   height: 124rem;
    
    > div {
       display: flex;
