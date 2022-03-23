@@ -1,8 +1,9 @@
 import { Gallery } from "../components/Gallery";
 
-import { Main,Header, BannerSection, TextBanner, IconsSection } from "./styles"
-import { MarsSection, MarsText, SubscriptionNow, MarsGallery } from "./mars-styles"
-import { FormSection, ContainerForm, DivForm, DivInputCheckBox, DivFormImage} from "./form-styles"
+import { Main,Header, BannerSection, TextBanner, IconsSection } from "../styles/styles"
+import { MarsSection, MarsText, SubscriptionNow, MarsGallery } from "../styles/mars-styles"
+import { FormSection, ContainerForm, DivForm, DivInputCheckBox, DivFormImage } from "../styles/form-styles"
+import {Footer} from "../styles/footer-styles"
 
 import logoImg from "/assets/logo.svg";
 import homeMars from "/assets/home-mars.svg";
@@ -13,11 +14,14 @@ import iconTicket from "/assets/icon-ticket.svg";
 import marsImg from "/assets/mars.svg";
 import rocketLaunch from "/assets/rocket-illustra.svg";
 import smokeFooter from "/assets/smoke-footer.svg";
+import instagram from "/assets/instagram.svg";
+import linkedin from "/assets/linkedin.svg";
+import facebook from "/assets/facebook.svg";
 
 export function Home() {
    return (
       <Main>
-         <Header>
+         <Header id="header">
             <img src={logoImg} alt="Logo Spacey"></img>
             <img src={homeMars} alt="Mars"></img>
          </Header>
@@ -95,6 +99,26 @@ export function Home() {
          <DivFormImage>
                <img src={smokeFooter} alt="Smoke" />
          </DivFormImage>
+         <Footer>
+            <img src={logoImg} alt="Spacey logo" />
+            <ul>
+               <a href="https://bit.ly/354NBq4" target="_blank">
+                  <img src={instagram} alt="instagram" />
+               </a>
+               <a href="https://bit.ly/3IBCX7Q" target="_blank">
+                  <img src={linkedin} alt="Linkedin" />
+               </a>
+               <a href="https://bit.ly/3L8eZ66" target="_blank">
+                  <img src={facebook} alt="Facebook" />
+               </a>
+            </ul>
+            <div>
+               <a href="#header">Início</a>
+               <a>Sobre nós</a>
+               <a>Missões</a>
+               <a>Contato</a>
+            </div>
+         </Footer>
       </Main>
    )
 }

@@ -95,7 +95,13 @@ export const DivForm = styled.div`
          font-size: 1.6rem;
          padding-left: 1.4rem;
       }
+
+      ::-webkit-outer-spin-button,
+      ::-webkit-inner-spin-button {
+         -webkit-appearance: none;
+      }
    }
+   
 `
 
 export const DivInputCheckBox = styled.div`

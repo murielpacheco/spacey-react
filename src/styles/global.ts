@@ -20,6 +20,7 @@ export const GlobalStyle = createGlobalStyle`
       --saturn: #554AD7;
 
       --text-color: #FFFFFF;
+      --background-color: #0D0E13;
       --background-form: #0E0D40;
 
    }
