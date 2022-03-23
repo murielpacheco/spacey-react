@@ -20,6 +20,7 @@ export const GlobalStyle = createGlobalStyle`
       --saturn: #554AD7;
 
       --text-color: #FFFFFF;
+      --background-form: #0E0D40;
 
    }
 
@@ -27,10 +28,12 @@ export const GlobalStyle = createGlobalStyle`
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+      text-decoration: none;
       font-family: "Heebo";
    }
 
    html {
+      scroll-behavior: smooth;
       font-size: 62.5%;
       @media(max-width: 1440px) {
          font-size: 93.75%;
@@ -44,7 +47,5 @@ export const GlobalStyle = createGlobalStyle`
    body {
       -webkit-font-smoothing: antialiased;
       width: 100%;
-      overflow-x:auto;
-      overflow-y:auto;
    }
 `

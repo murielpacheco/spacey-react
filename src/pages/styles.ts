@@ -4,6 +4,7 @@ export const Main = styled.main`
    width: 100%;
    height: 100%;
    overflow-x: hidden;
+   position: relative;
 
 `
 
@@ -71,7 +72,6 @@ export const TextBanner = styled.div`
       background-color: var(--mars);
       border: none;
       border-radius: 1rem;
-      color: var(--text-color);
       font-size: 1.8rem;
       line-height: 2.6rem;
       font-weight: 700;
@@ -83,6 +83,10 @@ export const TextBanner = styled.div`
 
       :hover {
          filter: brightness(1.1);
+      }
+
+      a {
+         color: var(--text-color);
       }
    }
 

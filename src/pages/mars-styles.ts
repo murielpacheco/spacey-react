@@ -86,7 +86,7 @@ export const SubscriptionNow = styled.aside`
       margin-bottom: 1.67rem;
    }
 
-   span {
+   a {
       color: var(--mars-light);
       font-size: 1.8rem;
       line-height: 2.6rem;

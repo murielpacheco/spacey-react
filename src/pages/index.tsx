@@ -1,15 +1,18 @@
+import { Gallery } from "../components/Gallery";
 
 import { Main,Header, BannerSection, TextBanner, IconsSection } from "./styles"
-
 import { MarsSection, MarsText, SubscriptionNow, MarsGallery } from "./mars-styles"
+import { FormSection, ContainerForm, DivForm, DivInputCheckBox, DivFormImage} from "./form-styles"
 
 import logoImg from "/assets/logo.svg";
 import homeMars from "/assets/home-mars.svg";
 import iconsRocket from "/assets/icon-rocket.svg";
 import iconsFlag from "/assets/icon-flag.svg";
 import iconsTelescope from "/assets/icon-telescope.svg";
+import iconTicket from "/assets/icon-ticket.svg";
 import marsImg from "/assets/mars.svg";
-import { Gallery } from "../components/Gallery";
+import rocketLaunch from "/assets/rocket-illustra.svg";
+import smokeFooter from "/assets/smoke-footer.svg";
 
 export function Home() {
    return (
@@ -25,7 +28,7 @@ export function Home() {
                <p>A primeira viagem para Marte estará disponivél a partir do dia <br/> 12/03/2028.
                   Inscreva-se em nossa lista de espera.
                </p>
-               <button type="button"> Increva-se agora</button>
+               <button type="button"><a href="#form-section">Increva-se agora</a></button>
             </TextBanner>
             <IconsSection>
                <div>
@@ -63,11 +66,35 @@ export function Home() {
                   <strong>
                      O caminho para <br /> tornar a humanidade multiplanetária.
                   </strong>
-                  <span>Inscreva-se agora</span>
+                  <a href="#form-section">Inscreva-se agora</a>
                </SubscriptionNow>
                <Gallery />
             </MarsGallery>
          </MarsSection>
+         <FormSection id="form-section">
+            <ContainerForm>
+               <img src={iconTicket} alt="Ticket form" />
+               <DivForm>
+                  <strong>Garanta sua vaga para a primeira viagem</strong>
+                  <span>Preencha os campos abaixo para entrar na lista de espera</span>
+                  <label htmlFor="name">Seu nome</label>
+                  <input type="text" name="name" placeholder="Digite seu nome" />
+                  <label htmlFor="email">E-mail</label>
+                  <input type="email" name="email" placeholder="email@email.com"/>
+                  <label htmlFor="phone">Telefone</label>
+                  <input type="number" name="phone" placeholder="(XX) XXXXX-XXXX"/>
+               </DivForm>
+               <DivInputCheckBox>
+                  <input type="checkbox" />
+                  <p>Concordo em receber comunicações por email.</p>
+               </DivInputCheckBox>
+               <button>Garantir minha vaga</button>
+            </ContainerForm>
+               <img src={rocketLaunch} alt="Rocket" />
+         </FormSection>
+         <DivFormImage>
+               <img src={smokeFooter} alt="Smoke" />
+         </DivFormImage>
       </Main>
    )
 }
