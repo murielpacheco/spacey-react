@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
 export const FormSection = styled.div`
+   @media (max-width: 376px) {
+      display: none;
+   }
+
    width: 100%;
    background: #0D0E13;
 
@@ -134,6 +138,10 @@ export const DivInputCheckBox = styled.div`
 `
 
 export const DivFormImage = styled.div`
+   @media (max-width: 376px) {
+      display: none;
+   }
+   
    width: 100%;
    background: #0D0E13;
    img {

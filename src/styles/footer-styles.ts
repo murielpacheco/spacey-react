@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
 export const Footer = styled.footer`
+   @media (max-width: 376px) {
+      display: none;
+   }
+
    width: 100%;
    height: 10rem;
    background-color: var(--background-color);
